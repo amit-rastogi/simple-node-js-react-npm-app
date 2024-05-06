@@ -1,5 +1,6 @@
 pipeline {
   agent {
+     label 'jenkins-controller-agent'
      dockerfile 'true'
   }
 
